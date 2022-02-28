@@ -11,11 +11,11 @@ int main() {
     int num1 = 0;
     int num2 = 0;
 
-	const int * p1 = &num1;
+    const int * p1 = &num1;
     int * const p2 = &num2;
 
-	cout << p1 << endl;
-	cout << *p1 << endl;
+    cout << p1 << endl;
+    cout << *p1 << endl;
     cout << p2 << endl;
     cout << *p2 << endl;
 
